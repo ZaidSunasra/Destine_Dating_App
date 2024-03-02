@@ -524,7 +524,7 @@ app.resizable(height=FALSE, width=FALSE)
 app.configure(bg="white")
 app.iconbitmap("Images/favicon.ico")
 
-my_database = mysql.connector.connect(host="localhost", user="root", passwd="123456789", database="destine",)
+my_database = mysql.connector.connect(host="localhost", user="root", passwd="", database="destine",)
 my_database_cursor = my_database.cursor()
 # my_database_cursor.execute("CREATE DATABASE destine")
 # my_database_cursor.execute("CREATE TABLE user_info(Name VARCHAR (255), Email VARCHAR (255), Contact BIGINT, Gender VARCHAR (10), Username VARCHAR (255) PRIMARY KEY, Password VARCHAR (255))")
